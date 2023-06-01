@@ -9,6 +9,7 @@ This is a *pick-your-problem* style guide I created to educate everyone from my 
 **Readings covering a fundamentals overview of how Machine Learning Systems are made**
 
 [Machine Learning Systems Design - Part 1](https://docs.google.com/presentation/d/1bhjgRelQ0O5FnYCOGiCVWg_SkfRcZ9bffQsgk6yAaL0/edit?usp=sharing)
+
 [Machine Learning Systems Design - Part 2](https://docs.google.com/presentation/d/1BYxwxJCb7onDemOtAZTmMc50V3tF80BflkuKZCBLUxg/edit?usp=sharing)
 
 [Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
@@ -92,6 +93,7 @@ Setting up an appropriate baseline is an important step that many candidates for
 It's extremely hard to find good advice or a one-size fits all solution on with data annotation and what works well but here are a few resources I've been able to find.
 
 [Labelling Guidelines by Eugene Yan](https://eugeneyan.com/writing/labeling-guidelines/)
+
 [How to Develop Annotation Guidelines by Prof. Dr. Nils Reiter](https://nilsreiter.de/blog/2017/howto-annotation)
 
 I love using [Scale AI](https://scale.com/) for tagging but if you're looking for something free then [LabelStudio](https://labelstud.io/) is a good start
