@@ -130,7 +130,7 @@ As this is moving fast and gets crazier by the month [just take a look at the MA
 - Model and Artifact versioning
 - Data versioning
 - Data storage and collection/collation pipeline
-- Model training infra - GPU machines + and preferably platforms like [KubeFlow]((https://www.kubeflow.org/docs/components/pipelines/) or [SageMaker](https://aws.amazon.com/sagemaker/)
+- Model training infra - GPU machines + and preferably platforms like [KubeFlow](https://www.kubeflow.org/docs/components/pipelines/) or [SageMaker](https://aws.amazon.com/sagemaker/)
 - Experiment Tracking - My go to is [Weights and Biases](https://wandb.ai/) but if you're looking for a more packaged solution [MLFlow](https://mlflow.org/) is great
 - Monitoring/Logging
 - Deployment Mechanism (more below)
