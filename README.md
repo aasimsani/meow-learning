@@ -175,14 +175,8 @@ The deployment “stack” - this keeps moving quite fast but the basic principl
 
 UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/lecture-5-deployment/)
 
-## End to End and pre-deployment testing
-
-[How to evaluate models before deploying in terms of infrastructural challenges](https://docs.google.com/presentation/d/1RqbEbMDmxq53jhjVi9V30-DYMv0PiUqlNlTZsw9Vm9Y/edit?usp=sharing)
-
-**Tools** 
-* [ZenoML](https://zenoml.com/)
-
-## Testing and expandability guidelines
+## Testing and expandability
+[Infrastructure challenges and considerations](https://docs.google.com/presentation/d/1RqbEbMDmxq53jhjVi9V30-DYMv0PiUqlNlTZsw9Vm9Y/edit?usp=sharing)
 
 [Full Stack Deep Learning - Lecture 10: Testing & Explainability](https://fullstackdeeplearning.com/spring2021/lecture-10/)
 
@@ -191,6 +185,8 @@ UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/le
 * [Netron](https://github.com/lutzroeder/netron): Visualizer for neural network, deep learning, and machine learning models.
 * [Deepchecks](https://github.com/deepchecks/deepchecks): Test Suites for Validating ML Models & Data. Deepchecks is a Python package for comprehensively validating your machine learning models and data with minimal effort.
 * [Evidently](https://github.com/evidentlyai/evidently): Interactive reports to analyze ML models during validation or production monitoring.
+
+* I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.
 
 ## Monitoring
 
@@ -209,6 +205,8 @@ If these platforms don't work for you I recommend making your own pipeline using
 - [Grafana's Stack](https://grafana.com/)
 - [Manifold](https://github.com/uber/manifold): A model-agnostic visual debugging tool for machine learning.
 - Your own logger + Your own data stores + Your own BI (Metabase, Superset, etc.) - not recommended
+
+* I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.
 
 ## Acknowledgements and references
 
