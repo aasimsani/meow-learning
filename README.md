@@ -87,12 +87,15 @@ Setting up an appropriate baseline is an important step that many candidates for
 - *Human baseline*: how well would humans perform on this task?
 - *Simple heuristic*: for example, for the task of recommending the app to use next on your phone, the simplest model would be to recommend your most frequently used app. If this simple heuristic can predict the next app accurately 70% of the time, any model you build has to outperform it significantly to justify the added complexity.
 
-### Wild west starts
-**Data Infrastructure**
 
-**Data Tagging**
 
-### Wild west ends
+
+**Data Tagging Guidelines**
+It's extremely hard to find good advice or a one-size fits all solution on with data annotation and what works well but here are a few resources I've been able to find.
+
+[Labelling Guidelines by Eugene Yan](https://eugeneyan.com/writing/labeling-guidelines/)
+[How to Develop Annotation Guidelines by Prof. Dr. Nils Reiter](https://nilsreiter.de/blog/2017/howto-annotation)
+
 
 **Training**
 
@@ -122,6 +125,16 @@ Deployment checklist
 
 Understanding infrastructure
 
+As this is moving fast and gets crazier by the month [just take a look at the MAD: Machine Learning, Artificial Intelligence & Data Landscape for 2023](https://mad.firstmark.com/) I'll quickly summarize the essential but non-ephemerals you need to make AI happen
+
+- Code versioning
+- Model and Artifact versioning
+- Data versioning
+- Data storage
+- Model training
+- Experiment Tracking
+- Monitoring/Logging
+
 [Full Stack Deep Learning - Lecture 6: MLOps Infrastructure & Tooling](https://fullstackdeeplearning.com/spring2021/lecture-6/)
 
 The deployment “stack” - this keeps moving quite fast but the basic principles remain the same. A quick Google Search doesn't hurt though.
@@ -146,7 +159,7 @@ Testing and expandability guidelines
 
 [How to make sure ML systems fail and you can see and know it](https://docs.google.com/presentation/d/1tuCIbk9Pye-RK1xqiiZXPzT8lIgDUL6CqBkFSYZXkbY/edit?usp=sharing)
 
-**References and resources**
+**Acknowledgements and references**
 
 [Stanford CS329S Course by Chip Hyuen - CS 329S | Syllabus](https://stanford-cs329s.github.io/syllabus.html)
 
@@ -156,4 +169,7 @@ Testing and expandability guidelines
 
 [Google Model Tuning Playbook](https://github.com/google-research/tuning_playbook)
 
+[Labelling Guidelines by Eugene Yan](https://eugeneyan.com/writing/labeling-guidelines/)
+
+[How to Develop Annotation Guidelines by Prof. Dr. Nils Reiter](https://nilsreiter.de/blog/2017/howto-annotation)
 
