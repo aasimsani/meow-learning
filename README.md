@@ -8,7 +8,8 @@ This is a *pick-your-problem* style guide I created to educate everyone from my 
 
 **Readings covering a fundamentals overview of how Machine Learning Systems are made**
 
-[cs329s_2022_02_slides_mlsd](https://docs.google.com/presentation/d/1BYxwxJCb7onDemOtAZTmMc50V3tF80BflkuKZCBLUxg/edit?usp=sharing)
+[Machine Learning Systems Design - Part 1](https://docs.google.com/presentation/d/1bhjgRelQ0O5FnYCOGiCVWg_SkfRcZ9bffQsgk6yAaL0/edit?usp=sharing)
+[Machine Learning Systems Design - Part 2](https://docs.google.com/presentation/d/1BYxwxJCb7onDemOtAZTmMc50V3tF80BflkuKZCBLUxg/edit?usp=sharing)
 
 [Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
@@ -65,11 +66,9 @@ More covered in planning below.
 
 **Planning**
 
-Finding the best way to collect data + Finding the right metric
+[Finding the best way to collect data + Finding the right metric](https://docs.google.com/presentation/d/1OYjrmhSBu3Poo5FcY6WywpU_eR7mtkpe1r8nbbWvArg/edit?usp=sharing)
 
-[cs329s_2022_03_slides_training_data](https://docs.google.com/presentation/d/1OYjrmhSBu3Poo5FcY6WywpU_eR7mtkpe1r8nbbWvArg/edit?usp=sharing)
-
-**Baseline Testing - also covered in large in pre-requisite readings**
+**Baseline Testing - also covered further in pre-requisite readings**
 
 Make your test dataset before you train anything
 
@@ -83,17 +82,13 @@ Setting up an appropriate baseline is an important step that many candidates for
 
 *Not essential for anyone but MLEs*
 
-Understanding common data challenges in training
+[Understanding common data challenges in training](https://docs.google.com/presentation/d/1Gq3VHW-0ci1gTh97OlckrCBqi3qgkjQNV0SO9t42Eyg/edit?usp=sharing)
 
-[cs329s_2022_04_slides_feature_engineering](https://docs.google.com/presentation/d/1Gq3VHW-0ci1gTh97OlckrCBqi3qgkjQNV0SO9t42Eyg/edit?usp=sharing)
-
-Understanding training, model selection, and other processes
-
-[cs329s_2022_05_slides_model_development](https://docs.google.com/presentation/d/1X_w55MfBhXGQbZkT_fbW9wdNrOs4sOuydRGPUI_yYCo/edit?usp=sharing)
+[Understanding training, model selection, and other processes](https://docs.google.com/presentation/d/1X_w55MfBhXGQbZkT_fbW9wdNrOs4sOuydRGPUI_yYCo/edit?usp=sharing)
 
 Debugging AI models
 
-[https://github.com/google-research/tuning_playbook](https://github.com/google-research/tuning_playbook)
+[Google Model Tuning Playbook](https://github.com/google-research/tuning_playbook)
 
 [Full Stack Deep Learning - Lecture 7: Troubleshooting Deep Neural Networks](https://fullstackdeeplearning.com/spring2021/lecture-7/)
 
@@ -107,15 +102,19 @@ Understanding infrastructure
 
 [Full Stack Deep Learning - Lecture 6: MLOps Infrastructure & Tooling](https://fullstackdeeplearning.com/spring2021/lecture-6/)
 
-The deployment “stack”
+The deployment “stack” - this keeps moving quite fast but the basic principles remain the same. A quick Google Search doesn't hurt though.
+
+1. Know your use-case's deployment platform e.g. Mobile, Web, Edge, etc.
+2. Find the stack/toolkit/library that works on your platform and with company requirements e.g Tensorflow Lite (Mobile/Edge), Google's Vertex AI prediction (SaaS), Torchserve/TFX (Backend and enterprise grade) and BentoML (Backend but simpler)
+3. Understand your use-case's time constraints e.g. real-time for video or batch for recommendation engines
+4. Optimize for time/cost/performance
 
 [Full Stack Deep Learning - Lecture 11: Deployment & Monitoring](https://fullstackdeeplearning.com/spring2021/lecture-11/)
+UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/lecture-5-deployment/)
 
 **End to End and pre-deployment testing**
 
-How to evaluate models before deploying in terms of infrastructural challenges
-
-[cs329s_2022_06_slides_model_evaluation](https://docs.google.com/presentation/d/1RqbEbMDmxq53jhjVi9V30-DYMv0PiUqlNlTZsw9Vm9Y/edit?usp=sharing)
+[How to evaluate models before deploying in terms of infrastructural challenges](https://docs.google.com/presentation/d/1RqbEbMDmxq53jhjVi9V30-DYMv0PiUqlNlTZsw9Vm9Y/edit?usp=sharing)
 
 Testing and expandability guidelines
 
@@ -123,12 +122,16 @@ Testing and expandability guidelines
 
 **Monitoring**
 
-How to make sure ML systems fail and you can see and know it
-
-[cs329s_2022_10_slides_ml_failure_diagnosis](https://docs.google.com/presentation/d/1tuCIbk9Pye-RK1xqiiZXPzT8lIgDUL6CqBkFSYZXkbY/edit?usp=sharing)
+[How to make sure ML systems fail and you can see and know it](https://docs.google.com/presentation/d/1tuCIbk9Pye-RK1xqiiZXPzT8lIgDUL6CqBkFSYZXkbY/edit?usp=sharing)
 
 **References and resources**
 
-Full Standford - CS329S Course
+[Stanford CS329S Course by Chip Hyuen - CS 329S | Syllabus](https://stanford-cs329s.github.io/syllabus.html)
 
-[CS 329S | Syllabus](https://stanford-cs329s.github.io/syllabus.html)
+[Full Stack Deep Learning by Josh Tobin and Sergey Karayev]([https://](https://fullstackdeeplearning.com/)
+
+[Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
+
+[Google Model Tuning Playbook](https://github.com/google-research/tuning_playbook)
+
+
