@@ -1,6 +1,6 @@
 # Train your team on AI - quickly
 
-This is a *pick-your-problem* style guide I created to educate everyone from my leadership team to my ML engineers on the process of how to create AI in production settings.
+This is a *pick-your-problem* style guide I created to educate everyone from my leadership team to my ML engineers on the process of how to work with AI in production settings.
 
 #### Previously CopyCat AI Guidelines
 
