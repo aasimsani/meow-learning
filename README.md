@@ -80,7 +80,7 @@ Setting up an appropriate baseline is an important step that many candidates for
 
 **Training**
 
-*Not essential for anyone but MLEs*
+*Section not essential for anyone but MLEs*
 
 [Understanding common data challenges in training](https://docs.google.com/presentation/d/1Gq3VHW-0ci1gTh97OlckrCBqi3qgkjQNV0SO9t42Eyg/edit?usp=sharing)
 
