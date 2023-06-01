@@ -28,28 +28,16 @@ Where to look for models/techniques and the like?
     - [Tensorflow Hub](https://www.tensorflow.org/hub)
     - [Model Zoo.co](https://modelzoo.co/)
     - [Nvidia Model Zoo](https://docs.nvidia.com/tao/tao-toolkit/text/model_zoo/overview.html)
-    - Here is an exhaustive list of AI model zoos along with their links in Markdown format:
-    - [OpenAI Model Zoo](https://github.com/openai/openai-zoo)
-    - [TensorFlow Hub](https://tfhub.dev/)
-    - [PyTorch Hub](https://pytorch.org/hub/)
-    - [Hugging Face Model Hub](https://huggingface.co/models)
     - [ONNX Model Zoo](https://github.com/onnx/models)
-    - [Microsoft AI Model Zoo](https://github.com/microsoft/ai-edu/tree/main/ZH-CN/tutorial-v2/zh-cn)
-    - [PaddlePaddle Model Zoo](https://github.com/PaddlePaddle/models)
-    - [MLflow Model Registry](https://mlflow.org/docs/latest/tracking.html#model-registry)
-    - [ModelDepot](https://modeldepot.io/)
-    - [DeepAI Model Zoo](https://deepai.org/model-zoo)
-    - [Google AI Model Zoo](https://ai.google/tools/datasets/google-public-datasets/)
     - [NVIDIA NGC Model Zoo](https://ngc.nvidia.com/catalog/models)
     - [Facebook Research Model Zoo](https://github.com/facebookresearch)
-    - [IBM Model Asset Exchange](https://developer.ibm.com/exchanges/models/)
     - [Keras Applications](https://keras.io/api/applications/)
     - [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
-    - [MXNet Model Zoo](https://mxnet.apache.org/api/appendix/model_zoo)
+    - [MXNet/Gluon Model Zoo](https://mxnet.apache.org/api/appendix/model_zoo](https://mxnet.apache.org/versions/1.6/ecosystem)
     - [Apple Machine Learning Models](https://developer.apple.com/machine-learning/models/)
-
+    - some more exist...
 Please note that the availability and content of these model zoos may vary, so it's always best to refer to the official documentation provided by each platform.
-    - and some more...
+
 - AI company Githubs
     - [Laion](https://www.laion.ai/blog)
     - [Ultralytics](https://www.ultralytics.com/blog)
@@ -99,6 +87,13 @@ Setting up an appropriate baseline is an important step that many candidates for
 - *Human baseline*: how well would humans perform on this task?
 - *Simple heuristic*: for example, for the task of recommending the app to use next on your phone, the simplest model would be to recommend your most frequently used app. If this simple heuristic can predict the next app accurately 70% of the time, any model you build has to outperform it significantly to justify the added complexity.
 
+### Wild west starts
+**Data Infrastructure**
+
+**Data Tagging**
+
+### Wild west ends
+
 **Training**
 
 *Section not essential for anyone but MLEs*
@@ -112,6 +107,12 @@ Debugging AI models
 [Google Model Tuning Playbook](https://github.com/google-research/tuning_playbook)
 
 [Full Stack Deep Learning - Lecture 7: Troubleshooting Deep Neural Networks](https://fullstackdeeplearning.com/spring2021/lecture-7/)
+
+**Prototyping**
+It's often very useful to setup an internal prototyping/testing interface for any AI model + it's data that you plan to deploy
+
+[Gradio](https://gradio.app/)
+[Streamlit](https://streamlit.io/)
 
 **Deployment**
 
