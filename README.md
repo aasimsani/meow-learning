@@ -128,7 +128,7 @@ Testing and expandability guidelines
 
 [Stanford CS329S Course by Chip Hyuen - CS 329S | Syllabus](https://stanford-cs329s.github.io/syllabus.html)
 
-[Full Stack Deep Learning by Josh Tobin and Sergey Karayev]([https://](https://fullstackdeeplearning.com/)
+[Full Stack Deep Learning by Josh Tobin and Sergey Karayev](https://fullstackdeeplearning.com/)
 
 [Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
