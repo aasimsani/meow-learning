@@ -126,7 +126,7 @@ Deployment checklist
 
 Understanding infrastructure
 
-As this is moving fast and gets crazier by the month [just take a look at the MAD: Machine Learning, Artificial Intelligence & Data Landscape for 2023](https://mad.firstmark.com/) I'll quickly summarize the essential but non-ephemerals you need to make AI happen
+As this is moving fast and gets crazier by the month just take a look at the [MAD: Machine Learning, Artificial Intelligence & Data Landscape for 2023](https://mad.firstmark.com/) I'll quickly summarize the essential but non-ephemerals you need to make AI happen
 
 - Code versioning
 - Model and Artifact versioning
