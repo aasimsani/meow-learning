@@ -18,37 +18,58 @@ This is a *pick-your-problem* style guide I created to educate everyone from my 
 **Research**
 
 Where to look for models/techniques and the like?
-
 - Model Zoos
-    - modelzoo.co
-    - Hugging face
-    - Torchvision
-    - Torchaudio
-    - Torchtext
-    - TIMM
-    - Tensorflow Hub
-    - Nvidia Model Zoo
+    - [Hugging face](https://huggingface.co/) and [their Github](https://github.com/orgs/huggingface/repositories)
+    - [PyTorch Hub](https://pytorch.org/hub/research-models)
+    - [Torchvision](https://pytorch.org/vision/stable/models.html)
+    - [Torchaudio](https://pytorch.org/audio/stable/pipelines.html#module-torchaudio.pipelines)
+    - [Torchtext - Hugging face is way better for this but just in case](https://pytorch.org/text/stable/models.html)
+    - [TIMM - Vision models](https://timm.fast.ai/) - Also check [their Hugging Face Page](https://huggingface.co/docs/timm/reference/models)
+    - [Tensorflow Hub](https://www.tensorflow.org/hub)
+    - [Model Zoo.co](https://modelzoo.co/)
+    - [Nvidia Model Zoo](https://docs.nvidia.com/tao/tao-toolkit/text/model_zoo/overview.html)
+    - Here is an exhaustive list of AI model zoos along with their links in Markdown format:
+    - [OpenAI Model Zoo](https://github.com/openai/openai-zoo)
+    - [TensorFlow Hub](https://tfhub.dev/)
+    - [PyTorch Hub](https://pytorch.org/hub/)
+    - [Hugging Face Model Hub](https://huggingface.co/models)
+    - [ONNX Model Zoo](https://github.com/onnx/models)
+    - [Microsoft AI Model Zoo](https://github.com/microsoft/ai-edu/tree/main/ZH-CN/tutorial-v2/zh-cn)
+    - [PaddlePaddle Model Zoo](https://github.com/PaddlePaddle/models)
+    - [MLflow Model Registry](https://mlflow.org/docs/latest/tracking.html#model-registry)
+    - [ModelDepot](https://modeldepot.io/)
+    - [DeepAI Model Zoo](https://deepai.org/model-zoo)
+    - [Google AI Model Zoo](https://ai.google/tools/datasets/google-public-datasets/)
+    - [NVIDIA NGC Model Zoo](https://ngc.nvidia.com/catalog/models)
+    - [Facebook Research Model Zoo](https://github.com/facebookresearch)
+    - [IBM Model Asset Exchange](https://developer.ibm.com/exchanges/models/)
+    - [Keras Applications](https://keras.io/api/applications/)
+    - [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
+    - [MXNet Model Zoo](https://mxnet.apache.org/api/appendix/model_zoo)
+    - [Apple Machine Learning Models](https://developer.apple.com/machine-learning/models/)
+
+Please note that the availability and content of these model zoos may vary, so it's always best to refer to the official documentation provided by each platform.
+    - and some more...
 - AI company Githubs
-    - Laion
-    - Ultralytics
-    - AirBnB
-    - Facebook
-    - Google
-    - Microsoft
-    - Netflix
+    - [Laion](https://www.laion.ai/blog)
+    - [Ultralytics](https://www.ultralytics.com/blog)
+    - [AirBnB]([https://medium.com/airbnb-engineering](https://medium.com/airbnb-engineering/ai/home))
+    - [Facebook AI](https://ai.facebook.com/blog/)
+    - [Google AI](https://ai.googleblog.com/)
+    - [Microsoft AI](https://blogs.microsoft.com/ai/)
+    - [Netflix TechBlog](https://netflixtechblog.com/tagged/machine-learning)
     - and many more…
 - AI lab blogs
-    - CSAIL - MIT/Stanford
-    - CMU Blog
-    - Taiwan AI Labs
-    - Deepmind blog
-    - OpenAI Blog
-    - Synced Review
-    - BAIR
+    - [CSAIL - MIT/Stanford](https://www.csail.mit.edu/)
+    - [CMU Blog](https://www.cmu.edu/news/index.html)
+    - [Taiwan AI Labs](https://www.twai.com.tw/en/)
+    - [Deepmind blog](https://deepmind.com/blog)
+    - [OpenAI Blog](https://openai.com/blog/)
+    - [Synced Review](https://syncedreview.com/)
+    - [BAIR](https://bair.berkeley.edu/)
     - and many more…
 
 Where not to look for models?
-
 - Towards Data Science and other unmoderated blogs (unless they link to one of the above)
 - Kaggle
 
