@@ -87,15 +87,14 @@ Setting up an appropriate baseline is an important step that many candidates for
 - *Human baseline*: how well would humans perform on this task?
 - *Simple heuristic*: for example, for the task of recommending the app to use next on your phone, the simplest model would be to recommend your most frequently used app. If this simple heuristic can predict the next app accurately 70% of the time, any model you build has to outperform it significantly to justify the added complexity.
 
-
-
-
 **Data Tagging Guidelines**
+
 It's extremely hard to find good advice or a one-size fits all solution on with data annotation and what works well but here are a few resources I've been able to find.
 
 [Labelling Guidelines by Eugene Yan](https://eugeneyan.com/writing/labeling-guidelines/)
 [How to Develop Annotation Guidelines by Prof. Dr. Nils Reiter](https://nilsreiter.de/blog/2017/howto-annotation)
 
+I love using [Scale AI](https://scale.com/) for tagging but if you're looking for something free then [LabelStudio](https://labelstud.io/) is a good start
 
 **Training**
 
@@ -130,10 +129,11 @@ As this is moving fast and gets crazier by the month [just take a look at the MA
 - Code versioning
 - Model and Artifact versioning
 - Data versioning
-- Data storage
-- Model training
-- Experiment Tracking
+- Data storage and collection/collation pipeline
+- Model training infra - GPU machines + and preferably platforms like [KubeFlow]((https://www.kubeflow.org/docs/components/pipelines/) or [SageMaker](https://aws.amazon.com/sagemaker/)
+- Experiment Tracking - My go to is [Weights and Biases](https://wandb.ai/) but if you're looking for a more packaged solution [MLFlow](https://mlflow.org/) is great
 - Monitoring/Logging
+- Deployment Mechanism (more below)
 
 [Full Stack Deep Learning - Lecture 6: MLOps Infrastructure & Tooling](https://fullstackdeeplearning.com/spring2021/lecture-6/)
 
@@ -158,6 +158,9 @@ Testing and expandability guidelines
 **Monitoring**
 
 [How to make sure ML systems fail and you can see and know it](https://docs.google.com/presentation/d/1tuCIbk9Pye-RK1xqiiZXPzT8lIgDUL6CqBkFSYZXkbY/edit?usp=sharing)
+
+[Arize AI](https://arize.com/)
+[Gantry](https://gantry.io/blog/)
 
 **Acknowledgements and references**
 
