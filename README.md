@@ -36,7 +36,7 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
     - [Facebook Research Model Zoo](https://github.com/facebookresearch)
     - [Keras Applications](https://keras.io/api/applications/)
     - [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
-    - [MXNet/Gluon Model Zoo](https://mxnet.apache.org/api/appendix/model_zoo](https://mxnet.apache.org/versions/1.6/ecosystem)
+    - [MXNet/Gluon Model Zoo](https://mxnet.apache.org/versions/1.6/ecosystem)
     - [Apple Machine Learning Models](https://developer.apple.com/machine-learning/models/)
     - some more exist...
  
@@ -45,7 +45,7 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
 - AI company Githubs
     - [Laion](https://www.laion.ai/blog)
     - [Ultralytics](https://www.ultralytics.com/blog)
-    - [AirBnB]([https://medium.com/airbnb-engineering](https://medium.com/airbnb-engineering/ai/home))
+    - [AirBnB](https://medium.com/airbnb-engineering/ai/home)
     - [Facebook AI](https://ai.facebook.com/blog/)
     - [Google AI](https://ai.googleblog.com/)
     - [Microsoft AI](https://blogs.microsoft.com/ai/)
@@ -112,7 +112,6 @@ It's extremely hard to find good advice or a one-size fits all solution on with 
 * [ydata-quality](https://github.com/ydataai/ydata-quality): Data Quality assessment with one line of code. - is cool but inflexible
 * [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling): Extends the pandas DataFrame with df.profile_report() for quick data analysis.
 * [DataProfiler](https://github.com/capitalone/DataProfiler): A Python library designed to make data analysis, monitoring and sensitive data detection easy. - Bit tough to use
-* 
 
 **Data tagging platforms**
 I love using [Scale AI](https://scale.com/) for tagging but if you're looking for something free then [LabelStudio](https://labelstud.io/) is a good start
@@ -141,15 +140,30 @@ It's often very useful to setup an internal prototyping/testing interface for an
 
 [Streamlit](https://streamlit.io/)
 
-## Deployment
+## Testing and expandability
+[Infrastructure challenges and considerations](https://docs.google.com/presentation/d/1RqbEbMDmxq53jhjVi9V30-DYMv0PiUqlNlTZsw9Vm9Y/edit?usp=sharing)
+
+[Full Stack Deep Learning - Lecture 10: Testing & Explainability](https://fullstackdeeplearning.com/spring2021/lecture-10/)
+
+**Tools**
+* [ZenoML](https://zenoml.com/) - Data and model result explainability - very new but simple and great for computer vision
+* [Netron](https://github.com/lutzroeder/netron): Visualizer for neural network, deep learning, and machine learning models.
+* [Deepchecks](https://github.com/deepchecks/deepchecks): Test Suites for Validating ML Models & Data. Deepchecks is a Python package for comprehensively validating your machine learning models and data with minimal effort.
+* [Evidently](https://github.com/evidentlyai/evidently): Interactive reports to analyze ML models during validation or production monitoring.
+
+* I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.
+
+## Deployment and Scaling beyond your own machine
 
 **Deployment checklist**
 
 [GitHub - modzy/model-deployment-checklist: An efficient, to-the-point, and easy-to-use checklist to following when deploying an ML model into production.](https://github.com/modzy/model-deployment-checklist?utm_source=substack&utm_medium=email)
 
-**Understanding infrastructure**
+**Understanding infrastructure in general**
 
-As this is moving fast and gets crazier by the month just take a look at the [MAD: Machine Learning, Artificial Intelligence & Data Landscape for 2023](https://mad.firstmark.com/) I'll quickly summarize the essentials you need to make AI happen smoothly.
+This moves very fast and gets crazier by the month. Just take a look at the [MAD: Machine Learning, Artificial Intelligence & Data Landscape for 2023](https://mad.firstmark.com/).
+
+But here are the essentials you need to make AI happen smoothly:
 
 - Code versioning
 - Model and Artifact versioning
@@ -164,29 +178,18 @@ There are also a bunch of all-in-one platforms that do all or most of these thin
 
 [Full Stack Deep Learning - Lecture 6: MLOps Infrastructure & Tooling](https://fullstackdeeplearning.com/spring2021/lecture-6/)
 
-The deployment “stack” - this keeps moving quite fast but the basic principles remain the same. A quick Google Search doesn't hurt though.
+**Deployment**
+
+The deployment “stack” - this also keeps moving quite fast but the basic principles remain the same. A quick Google Search doesn't hurt though.
 
 1. Know your use-case's deployment platform e.g. Mobile, Web, Edge, etc.
 2. Find the stack/toolkit/library that works on your platform and with company requirements e.g Tensorflow Lite (Mobile/Edge), Google's Vertex AI prediction (SaaS), Torchserve/TFX (Backend and enterprise grade) and BentoML (Backend but simpler)
-3. Understand your use-case's time constraints e.g. real-time for video or batch for recommendation engines
-4. Optimize for time/cost/performance
+3. Understand your use-case's constraints e.g. real-time for video or batch for recommendation engines
+4. Optimize for time/cost/performance/hardware
 
 [Full Stack Deep Learning - Lecture 11: Deployment & Monitoring](https://fullstackdeeplearning.com/spring2021/lecture-11/)
 
 UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/lecture-5-deployment/)
-
-## Testing and expandability
-[Infrastructure challenges and considerations](https://docs.google.com/presentation/d/1RqbEbMDmxq53jhjVi9V30-DYMv0PiUqlNlTZsw9Vm9Y/edit?usp=sharing)
-
-[Full Stack Deep Learning - Lecture 10: Testing & Explainability](https://fullstackdeeplearning.com/spring2021/lecture-10/)
-
-**Tools**
-* [ZenoML](https://zenoml.com/) - Data and model result explainability - very new but simple and great for computer vision
-* [Netron](https://github.com/lutzroeder/netron): Visualizer for neural network, deep learning, and machine learning models.
-* [Deepchecks](https://github.com/deepchecks/deepchecks): Test Suites for Validating ML Models & Data. Deepchecks is a Python package for comprehensively validating your machine learning models and data with minimal effort.
-* [Evidently](https://github.com/evidentlyai/evidently): Interactive reports to analyze ML models during validation or production monitoring.
-
-* I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.
 
 ## Monitoring
 
@@ -206,7 +209,7 @@ If these platforms don't work for you I recommend making your own pipeline using
 - [Manifold](https://github.com/uber/manifold): A model-agnostic visual debugging tool for machine learning.
 - Your own logger + Your own data stores + Your own BI (Metabase, Superset, etc.) - not recommended
 
-* I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.
+**I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.**
 
 ## Acknowledgements and references
 
