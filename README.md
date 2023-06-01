@@ -1,16 +1,18 @@
 # Train your team on AI - quickly
 
-This is a *pick-your-problem* style guide I created to educate my leadership team and engineers on the process of how to create AI in production settings.
+This is a *pick-your-problem* style guide I created to educate my everyone from my  leadership team to my ML engineers on the process of how to create AI in production settings.
 
 #### Previously CopyCat AI Guidelines
 
 ### *All reading topics are in reading order.*
 
-**Pre-requisite reading covering a fundamentals overview of how Machine Learning Systems are made**
+**Readings covering a fundamentals overview of how Machine Learning Systems are made**
 
 [cs329s_2022_02_slides_mlsd](https://docs.google.com/presentation/d/1BYxwxJCb7onDemOtAZTmMc50V3tF80BflkuKZCBLUxg/edit?usp=sharing)
 
 [Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
+
+*Product Leadership team can stop here*
 
 **Research**
 
@@ -78,6 +80,8 @@ Setting up an appropriate baseline is an important step that many candidates for
 - *Simple heuristic*: for example, for the task of recommending the app to use next on your phone, the simplest model would be to recommend your most frequently used app. If this simple heuristic can predict the next app accurately 70% of the time, any model you build has to outperform it significantly to justify the added complexity.
 
 **Training**
+
+*Not essential for anyone but MLEs*
 
 Understanding common data challenges in training
 
