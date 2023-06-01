@@ -190,6 +190,7 @@ UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/le
 * [ZenoML](https://zenoml.com/) - Data and model result explainability - very new but simple and great for computer vision
 * [Netron](https://github.com/lutzroeder/netron): Visualizer for neural network, deep learning, and machine learning models.
 * [Deepchecks](https://github.com/deepchecks/deepchecks): Test Suites for Validating ML Models & Data. Deepchecks is a Python package for comprehensively validating your machine learning models and data with minimal effort.
+* [Evidently](https://github.com/evidentlyai/evidently): Interactive reports to analyze ML models during validation or production monitoring.
 
 ## Monitoring
 
@@ -199,21 +200,15 @@ UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/le
 * [Aporia](https://www.aporia.com/): Observability with customized monitoring and explainability for ML models.
 * [Gantry](https://gantry.io/): ML Observability platform with analytics, alerting, and human feedback
 * [Arize](https://arize.com/): An end-to-end ML observability and model monitoring platform.
+* [WhyLabs](https://whylabs.ai/): AI Observability platform - they also have opensource components
+* [Fiddler](https://www.fiddler.ai/): Monitor, explain, and analyze your AI in production.
 * [Superwise](https://www.superwise.ai): Fully automated, enterprise-grade model observability in a self-service SaaS platform.
 
 If these platforms don't work for you I recommend making your own pipeline using either the:
 - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
 - [Grafana's Stack](https://grafana.com/)
+- [Manifold](https://github.com/uber/manifold): A model-agnostic visual debugging tool for machine learning.
 - Your own logger + Your own data stores + Your own BI (Metabase, Superset, etc.) - not recommended
-
-* [Evidently](https://github.com/evidentlyai/evidently): Interactive reports to analyze ML models during validation or production monitoring.
-* [Fiddler](https://www.fiddler.ai/): Monitor, explain, and analyze your AI in production.
-* [Manifold](https://github.com/uber/manifold): A model-agnostic visual debugging tool for machine learning.
-
-
-* [Whylogs](https://github.com/whylabs/whylogs): The open source standard for data logging. Enables ML monitoring and observability.
-
-
 
 ## Acknowledgements and references
 
