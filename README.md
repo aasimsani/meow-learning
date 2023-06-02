@@ -1,8 +1,8 @@
-# Train your team on Production AI - quickly
+# MeowLearning: Train your team on Production AI - quickly
 
 This is a *pick-your-problem* style guide I created to educate everyone from my leadership team to my ML engineers on the process of how to work with AI in production settings. This is stuff you *won't* learn as of today on Coursera or through most online courses.
 
-#### Previously CopyCat AI Guidelines
+#### Previously CopyCat's internal AI Guidelines
 
 ### *All reading topics are in reading order.*
 
