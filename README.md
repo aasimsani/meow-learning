@@ -15,6 +15,9 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
 
 [Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
+#### My Golden Rule above everything else
+*Focus on the speed at which you can run valid experiments, it is the only way to find a viable model for your problem.*
+
 *Product Leadership team can stop here*
 
 ## Research
@@ -70,13 +73,32 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
 
 **Rules to figure out what is and is not promising**
 
-- Look at whether existing implementations exist
+- Look at whether existing implementations exist (usually found in the paper or in one of the resources above), 
+- If no then I highly recommend finding another architecture, this process can be excruciating and time consuming but if you do have to:
+    - Select a design pattern to write the Neural Network in - I love a class based system like PyTorch does and then using [PyTorch Lightning's](https://www.pytorchlightning.ai/index.html) prescribed format on top of it.
+    - Read the research paper and see if they've specified all bits and bobs of the architecture and the training process - if not email the authors - you may get lucky
+    - Write the pseudocode
+    - Implementation
+        - [Beginner Advice on Learning to Implement Machine Learning Models](http://jsatml.blogspot.com/2014/10/beginner-advice-on-learning-to.html)
+        - Courses that help and are great reference material:
+            - [Practical Deep Learning for Coders (FastAI)](https://course.fast.ai/)
+            - [Neural Networks: Zero To Hero by Andrej Karpath](https://karpathy.ai/zero-to-hero.html)
+            - [Cutting Edge Deep Learning For Coders (FastAI)](https://course18.fast.ai/part2.html)
+            - [Dive into Deep Learning](https://d2l.ai)
+        - Coursera and Udacity courses tend to have everything handed to you in a sliver platter so while they're good for basics they don't help with this much.
+        - Lastly, if the problem is the Math itself then 
+    - See if the dataset they trained and tested on is publicly available and feasibly downloadable - if not don't fret too much on this step since the goal is to make it work for your data and your problem.
+    - Test your implementation on the dataset and see if you can reproduce results within the ball park (~2-5% error difference is fine)
+    - See debugging your AI models section below
+- If yes then:
     - Look at code cleanliness first and foremost. Bad AI code is a major pain. Ask me for stories about PyTorch’s FasterRCCN being broken and how we wasted 1 month behind it.
     - Look at Git repository popularity. More people using something often means bugs have been caught or addressed.
     - Look at open issues in the git repo.
 - Look at if people have used these kinds of models in production already
 - Look at if you can find if these models have been used on data of similar complexity and scale as the use case
 - Understand the math and the process. Is it actually going to do something meaningful to your data - especially in the case of self-supervised learning. E.g. random cropping images of buttons to learn features in an auto-encoder won’t make sense but doing it for a whole UI image might.
+
+- If you only have a research paper in hand
 
 More covered in planning below.
 
