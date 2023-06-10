@@ -218,7 +218,7 @@ UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/le
 
 ## Monitoring
 
-[How to make sure ML systems fail and you can see and know it](https://docs.google.com/presentation/d/1tuCIbk9Pye-RK1xqiiZXPzT8lIgDUL6CqBkFSYZXkbY/edit?usp=sharing)
+[How to make sure you know when ML systems fail and you can see and know it](https://docs.google.com/presentation/d/1tuCIbk9Pye-RK1xqiiZXPzT8lIgDUL6CqBkFSYZXkbY/edit?usp=sharing)
 
 **Tools**
 * [Aporia](https://www.aporia.com/): Observability with customized monitoring and explainability for ML models.
