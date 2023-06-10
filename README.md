@@ -79,8 +79,8 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
 
 - If no then I highly recommend finding another architecture, this process can be excruciating and time consuming but if you do have to:
     - Select a design pattern to write the Neural Network in - I love a class based system like PyTorch does and then using [PyTorch Lightning's](https://www.pytorchlightning.ai/index.html) prescribed format on top of it.
-    - Read the research paper and see if they've specified all bits and bobs of the architecture and the training process - if not email the authors - you may get lucky
-    - Write the pseudocode
+    - Read the research paper and see if they've specified all the bits and bobs of the architecture and the training process - if not email the authors - you may get lucky
+    - Write the pseudocode - especially the math
     - Implementation
         - [Beginner Advice on Learning to Implement Machine Learning Models](http://jsatml.blogspot.com/2014/10/beginner-advice-on-learning-to.html)
         - Courses that help and are great reference material:
@@ -89,6 +89,7 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
             - [Cutting Edge Deep Learning For Coders (FastAI)](https://course18.fast.ai/part2.html)
             - [Dive into Deep Learning](https://d2l.ai)
         - Coursera and Udacity courses tend to have everything handed to you in a sliver platter so while they're good for basics they don't help with this much.
+    - Optimize later - premature optimization is the bane of all good code
 
 - If yes then
     - Look at code cleanliness first and foremost. Bad AI code is a major pain. Ask me for stories about PyTorch’s FasterRCCN being broken and how we wasted 1 month behind it.
