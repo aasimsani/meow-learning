@@ -15,6 +15,8 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
 
 [Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
+[Large Language Models | Full Stack Deep Learning](https://youtu.be/MyFrMFab6bo?list=PL1T8fO7ArWleyIqOy37OVXsP4hFXymdOZ)
+
 #### My Golden Rule above everything else
 *Focus on the speed at which you can run valid experiments, it is the only way to find a viable model for your problem.*
 
@@ -109,6 +111,12 @@ More covered in planning below.
 
 [Finding the best way to collect data + Finding the right metric](https://docs.google.com/presentation/d/1OYjrmhSBu3Poo5FcY6WywpU_eR7mtkpe1r8nbbWvArg/edit?usp=sharing)
 
+**Understanding and Planning LLMs**
+[Blazing through these lectures by FullStack Deep learning will let you get pretty much all you need to know about LLMs](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023)
+
+*So simple question - Should I train and/or invest in working with an LLM?*
+- I think the answer is "it" depends - but know that it's probably expensive. So see if you can get close with prompt tuning, and if you can't then fine-tuning it on your own data, then consider model distillation, and finally think about full training.
+
 ## Baseline Testing 
 
 **Also covered further in pre-requisite readings**
@@ -120,6 +128,9 @@ Setting up an appropriate baseline is an important step that many candidates for
 - *Random baseline*: if your model predicts everything randomly, what's the expected performance?
 - *Human baseline*: how well would humans perform on this task?
 - *Simple heuristic*: for example, for the task of recommending the app to use next on your phone, the simplest model would be to recommend your most frequently used app. If this simple heuristic can predict the next app accurately 70% of the time, any model you build has to outperform it significantly to justify the added complexity.
+- 
+**Testing LLMs is hard**
+But here's [the best we've been able to figure out](https://youtu.be/Fquj2u7ay40?t=1355) - research here is always progressing
 
 ## Data Tagging
 
@@ -215,6 +226,11 @@ The deployment “stack” - this also keeps moving quite fast but the basic pri
 [Full Stack Deep Learning - Lecture 11: Deployment & Monitoring](https://fullstackdeeplearning.com/spring2021/lecture-11/)
 
 UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/lecture-5-deployment/)
+
+**LLM - Large Language Models** ~by popular request~
+I've found that deployment depends on model needs but Hugging Face has done a great job providing a API interface that "just works".
+- [Deploying LLMs via HuggingFace](https://huggingface.co/blog/inference-endpoints-llm)
+- Otherwise the same stuff as above
 
 ## Monitoring
 
