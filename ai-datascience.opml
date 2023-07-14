@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>AI and Data Science blogs</title>
+    </head>
+    <body>
+        <outline text="AI" title="AI">
+            <outline type="rss" text="Stack Overflow Blog" title="Stack Overflow Blog" xmlUrl="http://blog.stackoverflow.com/feed/" htmlUrl="https://stackoverflow.blog/"/>
+            <outline type="rss" text="Data Science Central" title="Data Science Central" xmlUrl="http://www.datasciencecentral.com/profiles/blog/feed?xn_auth=no" htmlUrl="https://www.datasciencecentral.com/"/>
+            <outline type="rss" text="Machine Learning Blog | ML@CMU | Carnegie Mellon University" title="Machine Learning Blog | ML@CMU | Carnegie Mellon University" xmlUrl="https://blog.ml.cmu.edu/feed/" htmlUrl="https://blog.ml.cmu.edu"/>
+            <outline type="rss" text="KDnuggets" title="KDnuggets" xmlUrl="http://feeds.feedburner.com/kdnuggets-data-mining-analytics" htmlUrl="https://www.kdnuggets.com"/>
+            <outline type="rss" text="Meta Research" title="Meta Research" xmlUrl="https://research.facebook.com/feed/" htmlUrl="https://research.facebook.com/"/>
+            <outline type="rss" text="The TWIML AI Podcast (formerly This Week in Machine Learning &amp; Artificial Intelligence)" title="The TWIML AI Podcast (formerly This Week in Machine Learning &amp; Artificial Intelligence)" xmlUrl="https://twimlai.com/feed/" htmlUrl="https://twimlai.com"/>
+            <outline type="rss" text="MachineLearningMastery.com" title="MachineLearningMastery.com" xmlUrl="http://feeds.feedburner.com/MachineLearningMastery" htmlUrl="https://machinelearningmastery.com/"/>
+            <outline type="rss" text="Synced" title="Synced" xmlUrl="https://syncedreview.com/feed/" htmlUrl="https://syncedreview.com"/>
+            <outline type="rss" text="fast.ai" title="fast.ai" xmlUrl="http://www.fast.ai/atom.xml" htmlUrl="https://www.fast.ai/"/>
+            <outline type="rss" text="MIT News - Computer Science and Artificial Intelligence Laboratory " title="MIT News - Computer Science and Artificial Intelligence Laboratory " xmlUrl="http://web.mit.edu/newsoffice/topic/mitcomputers-rss.xml" htmlUrl="https://www.csail.mit.edu/"/>
+            <outline type="rss" text="The Gradient" title="The Gradient" xmlUrl="https://thegradient.pub/rss/" htmlUrl="https://thegradient.pub/"/>
+            <outline type="rss" text="DeepMind " title="DeepMind " xmlUrl="https://deepmind.com/blog/feed/basic/" htmlUrl="https://www.deepmind.com"/>
+            <outline type="rss" text="Paperspace Blog" title="Paperspace Blog" xmlUrl="https://blog.paperspace.com/rss/" htmlUrl="https://blog.paperspace.com/"/>
+            <outline type="rss" text="PyTorch - Medium" title="PyTorch - Medium" xmlUrl="https://medium.com/feed/pytorch" htmlUrl="https://medium.com/pytorch?source=rss----512b8efdf2e7---4"/>
+            <outline type="rss" text="MLOps Community" title="MLOps Community" xmlUrl="https://mlops.community/feed/" htmlUrl="https://mlops.community"/>
+            <outline type="rss" text="ScienceDaily - Artificial Intelligence" title="ScienceDaily - Artificial Intelligence" xmlUrl="http://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml" htmlUrl="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
+            <outline type="rss" text="Taiwan AILabs" title="Taiwan AILabs" xmlUrl="https://ailabs.tw/feed/" htmlUrl="https://ailabs.tw"/>
+            <outline type="rss" text="The Official Blog of BigML.com" title="The Official Blog of BigML.com" xmlUrl="http://blog.bigml.com/feed/" htmlUrl="https://blog.bigml.com"/>
+            <outline type="rss" text="Arize AI" title="Arize AI" xmlUrl="https://arize.com/feed/" htmlUrl="https://arize.com/"/>
+            <outline type="rss" text="The TensorFlow Blog" title="The TensorFlow Blog" xmlUrl="https://blog.tensorflow.org/feeds/posts/default" htmlUrl="https://blog.tensorflow.org/"/>
+            <outline type="rss" text="The AI Blog" title="The AI Blog" xmlUrl="http://blogs.technet.com/b/next/rss.aspx" htmlUrl="https://blogs.microsoft.com/ai/"/>
+            <outline type="rss" text="PyTorch Website" title="PyTorch Website" xmlUrl="https://pytorch.org/feed.xml" htmlUrl="https://pytorch.org/"/>
+            <outline type="rss" text="The Stanford AI Lab Blog" title="The Stanford AI Lab Blog" xmlUrl="http://ai.stanford.edu/blog/feed.xml" htmlUrl="http://ai.stanford.edu/blog/"/>
+            <outline type="rss" text="Google AI Blog" title="Google AI Blog" xmlUrl="http://googleresearch.blogspot.com/atom.xml" htmlUrl="http://ai.googleblog.com/"/>
+            <outline type="rss" text="TruEra" title="TruEra" xmlUrl="https://truera.com/feed/" htmlUrl="https://truera.com/"/>
+            <outline type="rss" text="OpenAI " title="OpenAI " xmlUrl="https://blog.openai.com/rss/" htmlUrl="https://blog.openai.com"/>
+            <outline type="rss" text="The Berkeley Artificial Intelligence Research Blog" title="The Berkeley Artificial Intelligence Research Blog" xmlUrl="http://bair.berkeley.edu/blog/feed.xml" htmlUrl="http://bair.berkeley.edu/blog/"/>
+            <outline type="rss" text="neptune.ai" title="neptune.ai" xmlUrl="https://neptune.ai/feed" htmlUrl="https://neptune.ai/"/>
+            <outline type="rss" text="Apple Machine Learning Research" title="Apple Machine Learning Research" xmlUrl="https://machinelearning.apple.com/rss.xml" htmlUrl="https://machinelearning.apple.com"/>
+        </outline>
+    </body>
+</opml>
