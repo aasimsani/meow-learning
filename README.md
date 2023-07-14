@@ -255,6 +255,40 @@ If these platforms don't work for you I recommend making your own pipeline using
 
 **I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.**
 
+## How do I keep up with the AI, Data Science and ML world?
+1. I follow a few newsletters like the Gradient, and The Batch and augment them by the RSS feed below
+2. I tend to sometimes look at [Arxiv Sanity](https://www.arxiv-sanity.com/)
+3. I look at popular topics on Twitter and the common Hashtags.
+4. I tend to loosely follow the RSS feeds of the following blogs (I've uploaded the OPML file for this in this repo):
+
+- [Machine Learning Blog | ML@CMU | Carnegie Mellon University](https://blog.ml.cmu.edu)
+- [KDnuggets](https://www.kdnuggets.com)
+- [Meta Research](https://research.facebook.com/)
+- [The TWIML AI Podcast (formerly This Week in Machine Learning & Artificial Intelligence)](https://twimlai.com)
+- [MachineLearningMastery.com](https://machinelearningmastery.com/)
+- [Synced](https://syncedreview.com)
+- [fast.ai](https://www.fast.ai/)
+- [MIT News - Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/)
+- [The Gradient](https://thegradient.pub/)
+- [DeepMind](https://www.deepmind.com)
+- [Paperspace Blog](https://blog.paperspace.com/)
+- [PyTorch - Medium](https://medium.com/pytorch?source=rss----512b8efdf2e7---4)
+- [MLOps Community](https://mlops.community)
+- [ScienceDaily - Artificial Intelligence](https://www.sciencedaily.com/news/computers_math/artificial_intelligence/)
+- [Taiwan AILabs](https://ailabs.tw)
+- [The Official Blog of BigML.com](https://blog.bigml.com)
+- [Arize AI](https://arize.com/)
+- [The TensorFlow Blog](https://blog.tensorflow.org/)
+- [The AI Blog](https://blogs.microsoft.com/ai/)
+- [PyTorch Website](https://pytorch.org/)
+- [The Stanford AI Lab Blog](http://ai.stanford.edu/blog/)
+- [Google AI Blog](http://ai.googleblog.com/)
+- [TruEra](https://truera.com/)
+- [OpenAI](https://blog.openai.com)
+- [The Berkeley Artificial Intelligence Research Blog](http://bair.berkeley.edu/blog/)
+- [neptune.ai](https://neptune.ai/)
+- [Apple Machine Learning Research](https://machinelearning.apple.com)
+
 ## Acknowledgements and references
 
 [Stanford CS329S Course by Chip Hyuen - CS 329S | Syllabus](https://stanford-cs329s.github.io/syllabus.html)
