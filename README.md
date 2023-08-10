@@ -6,7 +6,7 @@ This is a *pick-your-problem* style guide I created to educate everyone from my 
 
 ### *All reading topics are in reading order.*
 
-## Fundementals
+## Fundamentals
 Readings covering a fundamentals overview of how Machine Learning Systems are made
 
 [Machine Learning Systems Design - Part 1](https://docs.google.com/presentation/d/1bhjgRelQ0O5FnYCOGiCVWg_SkfRcZ9bffQsgk6yAaL0/edit?usp=sharing)
