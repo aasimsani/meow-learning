@@ -220,6 +220,8 @@ There are also a bunch of all-in-one platforms that do all or most of these thin
 
 The deployment “stack” - this also keeps moving quite fast but the basic principles remain the same. A quick Google Search doesn't hurt though.
 
+Here's the last thing I saw that showed the latest changes in the landscape: [A Shift in ML Deployment by James Detweiler (Felicis VC)](https://www.felicis.com/insight/a-shift-in-ml-deployment)
+
 1. Know your use-case's deployment platform e.g. Mobile, Web, Edge, etc.
 2. Find the stack/toolkit/library that works on your platform and with company requirements e.g Tensorflow Lite (Mobile/Edge), Google's Vertex AI prediction (SaaS), Torchserve/TFX (Backend and enterprise grade) and BentoML (Backend but simpler)
 3. Understand your use-case's constraints e.g. real-time for video or batch for recommendation engines
