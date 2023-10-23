@@ -22,6 +22,46 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
 
 *Product Leadership team can stop here*
 
+#### AutoML: Before anything else - because the Golden Rule is key!
+
+Recent experiences have shown me that AutoML has come a long way in the past five years especially for Tabular Machine Learning. So my latest recommendation is to use it. Use it first.
+- Get your data in order ~ clean | preprocess | shrink/project if needed
+- Use AutoML
+- See what baselines it gives - if it works out of the box I'm happy for you but very jealous! :p
+
+**AutoML tools**
+
+Tip: You can use a foundation model like CLIP-VIT or GPTx as a pre-processor to make any data into structured data (embedding) for tasks as a quick and dirty experiment.
+
+*Structured ~ Tabular ~ Embedding ~ Preprocessed
+
+1. [Lazy Predict](https://pypi.org/project/lazypredict/) - Structured
+2. [AutoGluon](https://auto.gluon.ai/stable/index.html) - Structured | Image | Text | Multimodal | Time series
+3. [H2O](https://github.com/h2oai/h2o-3) - Tabular possibly Structured
+4. [MLJar](https://github.com/mljar/mljar-supervised) - Structured - Has auto-feature engineering
+5. [AutoPytorch](https://github.com/automl/Auto-PyTorch) - Structured
+6. [AutoSklearn](https://automl.github.io/auto-sklearn/master) - Structured
+7. [TPOT](http://epistasislab.github.io/tpot/) - Structured - Has auto-feature engineering
+8. [TPOT2](https://epistasislab.github.io/tpot2/) - Structured - Has auto-feature engineering
+9. [AutoKeras](https://autokeras.com/) - Structured | Image | Text | Time Series | Multimodal
+10. [FLAML](https://github.com/microsoft/FLAML) - Structured
+11. [PyCaret](https://pycaret.org/) - Structured | Time Series | Text
+12. [AutoGen](https://microsoft.github.io/autogen/) - LLMs
+13. [TransmogrifyAI](https://github.com/salesforce/TransmogrifAI) - Structured
+
+A number of these are also extendable with your custom models which aren't just Tabular - FLAML, AutoGluon, AutoKeras
+
+If you have the ($)_($)
+13. [GCP Vertex AutoML](https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide)
+14. [AWS SageMaker AutoML](https://aws.amazon.com/machine-learning/automl/)
+
+Theoretrically you can also use any model hub for "AutoML" if you combine it with a sweeping agent.
+
+E.g. [HuggingFace Autotrain](https://huggingface.co/autotrain) + [Weights and Biases Sweeps](https://wandb.ai) - Technically not AutoML but so many models so it's so very easy to do
+
+
+
+
 ## Research
 
 **Where to look for models/techniques and the like?**
