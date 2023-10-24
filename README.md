@@ -48,12 +48,13 @@ Tip: You can use a foundation model like CLIP-VIT or GPTx as a pre-processor to 
 11. [PyCaret](https://pycaret.org/) - Structured | Time Series | Text
 12. [AutoGen](https://microsoft.github.io/autogen/) - LLMs
 13. [TransmogrifyAI](https://github.com/salesforce/TransmogrifAI) - Structured
+14. [Model Search by Google](https://github.com/google/model_search) - Structured | Image | Text | Audio | Time Series
 
 A number of these are also extendable with your custom models which aren't just Tabular - FLAML, AutoGluon, AutoKeras
 
 If you have the ($)_($)
-13. [GCP Vertex AutoML](https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide)
-14. [AWS SageMaker AutoML](https://aws.amazon.com/machine-learning/automl/)
+15. [GCP Vertex AutoML](https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide)
+16. [AWS SageMaker AutoML](https://aws.amazon.com/machine-learning/automl/)
 
 Theoretrically you can also use any model hub for "AutoML" if you combine it with a sweeping agent.
 
