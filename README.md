@@ -24,10 +24,13 @@ Readings covering a fundamentals overview of how Machine Learning Systems are ma
 
 #### AutoML: Before anything else - because the Golden Rule is key!
 
-Recent experiences have shown me that AutoML has come a long way in the past five years especially for Tabular Machine Learning. So my latest recommendation is to use it. Use it first.
+Recent experiences have shown me that AutoML has come a long way in the past five-seven years especially for Tabular Machine Learning. So my latest recommendation is to use it. Use it first.
 - Get your data in order ~ clean | preprocess | shrink/project if needed
 - Use AutoML
 - See what baselines it gives - if it works out of the box I'm happy for you but very jealous! :p
+
+**When not to use AutoML right away?**
+- Sometimes you've got a really complex problem and/or no one has solved something similar before and/or a "lot" of data. Here AutoML probably will be inefficient compared to taking a first stab at doing research on narrowing down what to use architecture/preprocessing wise.
 
 **AutoML tools**
 
@@ -48,7 +51,7 @@ Tip: You can use a foundation model like CLIP-VIT or GPTx as a pre-processor to 
 11. [PyCaret](https://pycaret.org/) - Structured | Time Series | Text
 12. [AutoGen](https://microsoft.github.io/autogen/) - LLMs
 13. [TransmogrifyAI](https://github.com/salesforce/TransmogrifAI) - Structured
-14. [Model Search by Google](https://github.com/google/model_search) - Structured | Image | Text | Audio | Time Series
+14. [Model Search by Google](https://github.com/google/model_search) - Structured | Image | Text | Audio | Time Series - Use with care this is compute expensive
 
 A number of these are also extendable with your custom models which aren't just Tabular - FLAML, AutoGluon, AutoKeras
 
@@ -59,9 +62,6 @@ If you have the ($)_($)
 Theoretrically you can also use any model hub for "AutoML" if you combine it with a sweeping agent.
 
 E.g. [HuggingFace Autotrain](https://huggingface.co/autotrain) + [Weights and Biases Sweeps](https://wandb.ai) - Technically not AutoML but so many models so it's so very easy to do
-
-
-
 
 ## Research
 
