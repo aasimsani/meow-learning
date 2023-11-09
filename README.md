@@ -7,27 +7,35 @@ This is a *pick-your-problem* style guide I created to educate everyone from my 
 ### *All reading topics are in reading order.*
 
 ## Fundamentals
-Readings covering a fundamentals overview of how Machine Learning Systems are made
+Readings covering a fundamental overview of how Machine Learning Systems are made
+
+[A Taxonomy of ML and AI for those who are unfamiliar with the field](https://www.figma.com/file/jwrIkZkmidfVwNxmkiQmlP/AI-Taxonomy?type=whiteboard&node-id=0%3A1&t=fS9503omBUPtcBKW-1)
 
 [Machine Learning Systems Design - Part 1](https://docs.google.com/presentation/d/1bhjgRelQ0O5FnYCOGiCVWg_SkfRcZ9bffQsgk6yAaL0/edit?usp=sharing)
 
 [Machine Learning Systems Design - Part 2](https://docs.google.com/presentation/d/1BYxwxJCb7onDemOtAZTmMc50V3tF80BflkuKZCBLUxg/edit?usp=sharing)
+ 
+If you're tackling a specific system design stage and want to dive deeper, I'd recommend perusing specific parts of:
+- [CS 329S: Machine Learning Systems Design @Stanford by Chip Hyuen](https://stanford-cs329s.github.io/syllabus.html)
+  
+and/or it's more formal book version
+- [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications by Chip Hyuen](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
 
 [Rules of Machine Learning: | Google Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
 [Large Language Models | Full Stack Deep Learning](https://youtu.be/MyFrMFab6bo?list=PL1T8fO7ArWleyIqOy37OVXsP4hFXymdOZ)
 
 #### My Golden Rule above everything else
-*Focus on the speed at which you can run valid experiments, it is the only way to find a viable model for your problem.*
+*Focus on the speed at which you can run valid experiments. It is the only way to find a viable model for your problem.*
 
 *Product Leadership team can stop here*
 
 #### AutoML: Before anything else - because the Golden Rule is key!
 
-Recent experiences have shown me that AutoML has come a long way in the past five-seven years especially for Tabular Machine Learning. So my latest recommendation is to use it. Use it first.
+Recent experiences have shown me that AutoML has come a long way in the past five to seven years, especially for Tabular Machine Learning. So my latest recommendation is to use it. Use it first.
 - Get your data in order ~ clean | preprocess | shrink/project if needed
 - Use AutoML
-- See what baselines it gives - if it works out of the box I'm happy for you but very jealous! :p
+- See what baselines it gives - if it works out of the box, I'm happy for you but very jealous! :p
 
 **When not to use AutoML right away?**
 - Sometimes you've got a really complex problem and/or no one has solved something similar before and/or a "lot" of data. Here AutoML probably will be inefficient compared to taking a first stab at doing research on narrowing down what to use architecture/preprocessing wise.
