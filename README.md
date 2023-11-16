@@ -279,6 +279,8 @@ Here's the last thing I saw that showed the latest changes in the landscape: [A 
 [Full Stack Deep Learning - Lecture 11: Deployment & Monitoring](https://fullstackdeeplearning.com/spring2021/lecture-11/)
 
 UPDATE: [Lecture 5: Deployment](https://fullstackdeeplearning.com/course/2022/lecture-5-deployment/)
+[Specific Deployment System Examples which are short but good](https://stanford-cs329s.github.io/syllabus.html)
+[Neptune AI Blog has some good examples too](https://neptune.ai/blog/category/mlops)
 
 **LLM - Large Language Models** *by popular request*
 
