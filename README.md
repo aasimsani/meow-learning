@@ -203,6 +203,9 @@ It's extremely hard to find good advice or a one-size fits all solution on with 
 **Data tagging platforms**
 I love using [Scale AI](https://scale.com/) for tagging but if you're looking for something free then [LabelStudio](https://labelstud.io/) is a good start
 
+[**Diagnosing Data**](https://docs.google.com/presentation/d/1OYjrmhSBu3Poo5FcY6WywpU_eR7mtkpe1r8nbbWvArg/edit?usp=sharing)
+
+
 ## Training
 
 *Section not essential for anyone but MLEs*
