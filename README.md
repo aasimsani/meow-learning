@@ -28,6 +28,9 @@ and/or it's more formal book version
 #### My Golden Rule above everything else
 *Focus on the speed at which you can run valid experiments. It is the only way to find a viable model for your problem.*
 
+#### What experience taught me?
+- Your problems will often lie more in the data than the modelling. Fundamentals of Data Science (Shit in Shit Out) always apply, so focus on figuring out how to refine the data quality and use a system that focuses on this.
+
 *Product Leadership team can stop here*
 
 #### AutoML: Before anything else - because the Golden Rule is key!
