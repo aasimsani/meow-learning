@@ -315,7 +315,7 @@ If these platforms don't work for you I recommend making your own pipeline using
 **I'd also highly recommend some kind of hardware usage monitoring to see if models are actually efficient e.g. RAM, CPU, GPU % util - most if not Cloud Platforms have this.**
 
 ## How do I keep up with the AI, Data Science and ML world?
-1. I follow a few newsletters like the Gradient, and The Batch and augment them by the RSS feed below
+1. I follow a few newsletters like [The Gradient](https://thegradient.pub), [TLDR AI](https://tldr.tech/ai) and [The Batch](https://www.deeplearning.ai/the-batch/). Then I augment them by the RSS feed below
 2. I tend to sometimes look at [Arxiv Sanity](https://www.arxiv-sanity.com/)
 3. I look at popular topics on Twitter and the common Hashtags.
 4. I tend to loosely follow the RSS feeds of the following blogs (I've uploaded the OPML file for this in this repo):
